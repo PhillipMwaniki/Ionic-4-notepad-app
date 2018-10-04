@@ -1,0 +1,7 @@
+{
+  "name": "ionic-notepad",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
