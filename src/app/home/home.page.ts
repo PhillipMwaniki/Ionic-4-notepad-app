@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AlertController, NavController } from "@ionic/angular";
 
 @Component({
   selector: 'app-home',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  constructor(private alertCtrl: AlertController, private navCtrl: NavController){
+
+  }
+
+  ngOnInit() {
+    
+  }
 }
